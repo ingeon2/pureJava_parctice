@@ -16,8 +16,8 @@ public class Main {
             arr.add(st.nextToken());
         }
         calc1(arr);
-        System.out.println(arr.toString());
-        System.out.println(calc2(arr));
+        System.out.println(arr.toString()); //[4, +, 2, -, 6]
+        System.out.println(calc2(arr)); //0
 
 
 
